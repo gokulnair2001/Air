@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5524EB8324ED656D001A0062 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524EB8224ED656D001A0062 /* CategoryViewController.swift */; };
+		5524EB8524ED657E001A0062 /* Haptic Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524EB8424ED657E001A0062 /* Haptic Feedback.swift */; };
+		5524EB8C24ED6962001A0062 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524EB8B24ED6962001A0062 /* OnBoardingViewController.swift */; };
 		5534FDE624ED627100088055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534FDE524ED627100088055 /* AppDelegate.swift */; };
 		5534FDE824ED627100088055 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534FDE724ED627100088055 /* SceneDelegate.swift */; };
-		5534FDEA24ED627100088055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534FDE924ED627100088055 /* ViewController.swift */; };
+		5534FDEA24ED627100088055 /* AirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534FDE924ED627100088055 /* AirViewController.swift */; };
 		5534FDED24ED627100088055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534FDEB24ED627100088055 /* Main.storyboard */; };
 		5534FDF024ED627100088055 /* Air.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5534FDEE24ED627100088055 /* Air.xcdatamodeld */; };
 		5534FDF224ED627300088055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5534FDF124ED627300088055 /* Assets.xcassets */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5524EB8224ED656D001A0062 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		5524EB8424ED657E001A0062 /* Haptic Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Haptic Feedback.swift"; sourceTree = "<group>"; };
+		5524EB8B24ED6962001A0062 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		5534FDE224ED627100088055 /* Air.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Air.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5534FDE524ED627100088055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5534FDE724ED627100088055 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5534FDE924ED627100088055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5534FDE924ED627100088055 /* AirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirViewController.swift; sourceTree = "<group>"; };
 		5534FDEC24ED627100088055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5534FDEF24ED627100088055 /* Air.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Air.xcdatamodel; sourceTree = "<group>"; };
 		5534FDF124ED627300088055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,14 +66,57 @@
 			children = (
 				5534FDE524ED627100088055 /* AppDelegate.swift */,
 				5534FDE724ED627100088055 /* SceneDelegate.swift */,
-				5534FDE924ED627100088055 /* ViewController.swift */,
-				5534FDEB24ED627100088055 /* Main.storyboard */,
-				5534FDF124ED627300088055 /* Assets.xcassets */,
-				5534FDF324ED627300088055 /* LaunchScreen.storyboard */,
+				5534FE0024ED645100088055 /* Utillities */,
+				5534FDFF24ED644900088055 /* SupportingFiles */,
+				5534FDFE24ED644100088055 /* Controllers */,
+				5534FDFD24ED643B00088055 /* Views */,
+				5534FDFC24ED643300088055 /* Model */,
 				5534FDF624ED627300088055 /* Info.plist */,
 				5534FDEE24ED627100088055 /* Air.xcdatamodeld */,
 			);
 			path = Air;
+			sourceTree = "<group>";
+		};
+		5534FDFC24ED643300088055 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5534FDFD24ED643B00088055 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5534FDEB24ED627100088055 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5534FDFE24ED644100088055 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5524EB8224ED656D001A0062 /* CategoryViewController.swift */,
+				5534FDE924ED627100088055 /* AirViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5534FDFF24ED644900088055 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5534FDF124ED627300088055 /* Assets.xcassets */,
+				5534FDF324ED627300088055 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5534FE0024ED645100088055 /* Utillities */ = {
+			isa = PBXGroup;
+			children = (
+				5524EB8424ED657E001A0062 /* Haptic Feedback.swift */,
+				5524EB8B24ED6962001A0062 /* OnBoardingViewController.swift */,
+			);
+			path = Utillities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5524EB8324ED656D001A0062 /* CategoryViewController.swift in Sources */,
 				5534FDF024ED627100088055 /* Air.xcdatamodeld in Sources */,
-				5534FDEA24ED627100088055 /* ViewController.swift in Sources */,
+				5524EB8C24ED6962001A0062 /* OnBoardingViewController.swift in Sources */,
+				5524EB8524ED657E001A0062 /* Haptic Feedback.swift in Sources */,
+				5534FDEA24ED627100088055 /* AirViewController.swift in Sources */,
 				5534FDE624ED627100088055 /* AppDelegate.swift in Sources */,
 				5534FDE824ED627100088055 /* SceneDelegate.swift in Sources */,
 			);

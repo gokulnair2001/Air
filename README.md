@@ -43,4 +43,5 @@ MIT License<br> Please read the [License](https://github.com/gokulnair2001/Air/b
 
 # Imortant Message 
 
+* Try to run this on a device rather than simulator, works better on device :). 
 * If you find this app intresting than hit me up, I will be glad to work with you and make this app more interesting. 

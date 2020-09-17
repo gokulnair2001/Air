@@ -26,7 +26,7 @@ and many more.
 
 # Key Features 🔐
 * Smart Reminders.
-* Swipe to delete.
+* Swipe to Delete.
 * Add Custom Category.
 * Mark your Air (Tick Mark)
 * Check your done Air(Item)

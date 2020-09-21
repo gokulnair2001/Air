@@ -10,8 +10,7 @@
 
 
 # Introduction ⚒  
-Air is a reminder app which uses core data to save data in your phone.The app consists of smart reminders, as well as swipe to delete, check mark for completed Air(Item)
-and many more.
+Air is a reminder app which uses core data to save data in your phone.The app consists of smart reminders, as well as swipe to delete, check mark for completed Air(Item) and many more.
 
 # Libraries Used In Project 📒 
 
